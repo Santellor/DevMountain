@@ -1,0 +1,17 @@
+html {
+    background-color: bisque;
+}
+
+.blue {
+    background-color:cornflowerblue;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+form {
+    border: 2px groove;
+    padding: 2%;
+    margin: 2%;
+}

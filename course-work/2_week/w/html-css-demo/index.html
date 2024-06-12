@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="top-div" >  
+        <h1>This is my first website</h1>
+        <h3>It's all uphill from here</h3>
+    <p> I will make a really cool website one day </p>
+    <p> It will be dynamic </p>
+    <ul> 
+        <li class="adjectives"> It will be dynamic</li>
+        <li class="adjectives"> It will be colorful</li>
+        <li class="adjectives"> It will be *crisp*</li>
+
+    </ul>
+    <p> This website will have </p>
+    <ol>
+        <li class="components"> images</li>
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/b4/Appa_and_Momo.png" alt="Appa">
+        <li class="components"> videos</li>
+        <li class="components"> profiles</li>
+        <li class="components"> cool scroll effects</li>
+        <li class="components"> SOUNDS</li>
+        <li class="components"> TaBlEs</li>
+    </ol>
+    </div>
+
+    <div id="table-div">
+        <table style="border: 1px solid black">
+            <thead> 
+                <tr> 
+                    <th> Column 1 </th>
+                    <th> Column 2 </th>
+                </thead>
+            <tbody>
+                <tr>
+                    <td> 1 </td>
+                    <td> a </td>
+                </tr>
+                <tr>
+                    <td> 2 </td>
+                    <td> b </td>
+                </tr>
+                <tr>
+                    <td> 3 </td>
+                    <td> c </td>
+                </tr>
+                <tr>
+                    <td> 4 </td>
+                    <td> d </td>
+                </tr>
+        </table>
+    </div>
+
+    <div id="form-div"> 
+        <form>
+            <p id="Form-Intro" class="form-paragraph">Which season of Avatar is the best?</p>
+            <label for="best">Best Season</label>
+            <input type="text" id="best">
+            <br>
+            <br>
+            
+            <label for="worst">Worst Season</label>
+            <input type="password" id="worst" >
+            <br>
+            <br>
+            
+            <p class="form-paragraph"> Favorite Character? </p>
+
+            <input type="radio" name="character-select" value="aang">
+            <label>Aang</label>
+            <br>
+
+            <input type="radio" name="character-select" value="toph">
+            <label>Toph</label>
+            <br>
+
+            <input type="radio" name="character-select" value="zuko">
+            <label>Zuko</label>
+            <br>
+
+            <input type="radio" name="character-select" value="katara">
+            <label>Katara</label>
+            <br>
+
+            <input type="radio" name="character-select" value="sokka">
+            <label>Sokka</label>
+            <br>
+
+            <input type="checkbox" name="the-right-answer" value="everychar">
+            <label> All of them</label>
+            <br>
+            <input type="checkbox" name="the-right-answer" value="cabbage" disabled>
+            <label> Cabbage Man</label>
+            <br>
+            <input type="checkbox" name="the-right-answer" value="pets" >
+            <label> Appa and Momo</label>
+            <br>
+
+            <p class="form-paragraph" id="cool-question"> What element would you bend?</p>
+            <select name="bending"> 
+                <option value="default"> You can't be the avatar</option>
+                <option value="fire"> Fire</option>
+                <option value="water"> Water</option>
+                <option value="earth"> Earth</option>
+                <option value="air"> Air</option>
+            </select>
+            <br>
+            <br>
+            
+            <p class="form-paragraph"> Explain</p>
+            <br>
+            <textarea name="origin-story" class="story"></textarea>
+            <br>
+            <br>
+            <input type="submit" >
+            </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+p {
+    color: rgb(47, 87, 35);
+    font-size: 25px;
+    background-color: bisque;
+}
+
+.form-paragraph {
+    color: purple;
+}
+.story {
+    width: 60vw;
+    height: 10vw;
+}
+#cool-question {
+    color: black;
+    height: 100 px;
+    border: 3px solid red;
+    padding: 10px;
+    margin: 50px;
+}
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    align-items: center;
+    
+}
+ /* * universal
+  id #
+  classes are . */
+  
+  table {
+      background-color: black;
+      color: gold;
+      background-color: bisque;
+
+    }
+    

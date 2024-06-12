@@ -1,0 +1,32 @@
+{% extends 'base.html.njk' %}
+
+{% block body %}
+
+<p> Welcome, {{user}} </p>
+<p> {{Prompt}} </p>
+<table class="table table-striped mt-3">
+  <thead>
+    <tr>
+      <th>Animal Name</th>
+      <th>Quantity</th>
+      <th>Price</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for trait, animal in cart %}
+    <tr>
+      <td>{{animal.name}}</td>
+      <td>{{animal.count}}</td>
+      <td>{{animal.price}}</td>
+      <td>${{animal.totalPrice}}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+<h3>Total: ${{cartTotal}}</h3>
+
+<a href="/checkout" class="btn btn-large btn-primary">Check Out</a>
+
+{% endblock %}

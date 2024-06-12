@@ -1,0 +1,11 @@
+{% extends 'base.html.njk' %}
+
+{% block body %}
+ 
+    <h3>Log In</h3>
+    <form action="/login" method="post">
+      Email: <input name="email" type="text" /> <br /><br />
+      <input type="submit" />
+    </form>
+
+{% endblock %}

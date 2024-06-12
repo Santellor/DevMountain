@@ -1,0 +1,73 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: #d1ffcc;
+}
+.lead {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+section {
+    background: white;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+section h2{
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: start;
+    border-bottom: 1px solid black;
+}
+
+td, th {
+    padding: 5px 10px;
+}
+
+.row2{
+    text-align: right;
+}
+
+.form-group{
+    padding-bottom: 15px;
+}
+
+label{
+    display: block;
+}
+.selector {
+    display: inline;
+}
+
+textarea {
+    width: 100%;
+    min-height: auto;
+    margin-top: 5px;
+} 
+
+input[type="submit"] {
+    padding: 30px 50px;
+    border: 20px solid gold;
+    border-radius: 100px;
+    font-size: 40px
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: black;
+    content: "Doom";
+    color: red;
+}
+
+#container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+/* em, rem, vh, vw are very helpful for practical site applications */
