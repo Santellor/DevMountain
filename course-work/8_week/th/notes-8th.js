@@ -50,3 +50,17 @@ console.log(arrLength([]))
 console.log(arrLength([1, 2, 3, 4 ,5]))
 console.log(arrLength([]))
 console.log(gaussWouldBeSad(1,99))
+
+const logEncrypt = (string) => {
+    let word1 = ''
+    let word2 = ''
+    string = string.replaceAll(' ','')
+    for (let i = 0; i < string.length; i++) {
+      if (i % 2 === 0) word1 += string[i]
+      else word2 += string[i]
+    }
+    console.log(word1)
+    console.log(word2)
+  }
+  
+  logEncrypt(`Hot Sauce`)
